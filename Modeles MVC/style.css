@@ -1,0 +1,137 @@
+body {
+    background-color: #C1C0C0;
+}
+
+li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.maPage {
+    /*border: black solid 1px;*/
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #595959;
+    display: block;
+    margin: auto;
+    width: 600px;
+}
+
+#navbar {
+    background-color: #41ABE1;
+    width: 100%;
+}
+
+form {
+    height: 44px;
+}
+
+.Searchbar {
+    height: 30px;
+    width:70%;
+    margin-left: 90px;
+    /*margin-right: auto;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px;
+    border: solid white;
+    padding-bottom: 7px;
+    margin-top: 6px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3E3E3F;
+    height: 52px;
+}
+
+footer {
+    background-color: #3E3E3F;
+    margin-top: 55px;
+    height: 52px;
+}
+
+.btnHeader {
+    margin-top: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    color: #41ABE1;
+    text-decoration: none;
+    padding-top: 11px;
+    display: block;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 9%;
+    color: white;
+    font-size: 26px;
+}
+
+#search {
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 2%;
+}
+
+.contain {
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: 6%;
+}
+
+#buttonsup {
+    float: left;
+    max-width: 26px;
+    max-height: 26px;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    color: #41ABE1;
+    border:none;
+}
+
+#buttontel {    
+    float: right;
+    max-width: 26px;
+    max-height: 26px;
+    margin-right: 5%;
+    margin-top: 1.5%;
+    border:none;
+}
+
+.folder {
+    list-style-image: url(images/folder.png);
+}
+
+.file {
+    list-style-image: url(images/file.png);
+    color: white;   
+}
+.date{
+    color: #2D2D2D; 
+    font-size: 13px;
+
+}
+.noPadding
+{
+    padding: 0;
+}
+hr{
+    width: 450px;
+    margin-left: -5px;
+    color: white;
+    border-top: 0.5px solid #fff;
+}
